@@ -1,0 +1,7 @@
+--- !ruby/object:Mud::Area 
+id: 2
+name: Foobar
+room_end: 20
+room_start: 16
+rooms: []
+

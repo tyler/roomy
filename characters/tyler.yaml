@@ -1,0 +1,4 @@
+--- !ruby/object:Mud::Character 
+name: tyler
+password_hash: da39a3ee5e6b4b0d3255bfef95601890afd80709
+room_id: 1

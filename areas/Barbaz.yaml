@@ -1,0 +1,56 @@
+--- !ruby/object:Mud::Area 
+id: 1
+name: Barbaz
+room_end: 15
+room_start: 1
+rooms: 
+- !ruby/object:Mud::Room 
+  description: Yay its a room.  Aren't you glad to see a room?
+  down: 
+  east: 2
+  id: 1
+  name: Yay A Room
+  north: 5
+  south: 3
+  up: 
+  west: 4
+- !ruby/object:Mud::Room 
+  description: New Room Description
+  down: 
+  east: 
+  id: 2
+  name: 
+  north: 
+  south: 
+  up: 
+  west: 1
+- !ruby/object:Mud::Room 
+  description: New Room Description
+  down: 
+  east: 
+  id: 3
+  name: New Room
+  north: 1 
+  south:
+  up: 
+  west: 
+- !ruby/object:Mud::Room 
+  description: New Room Description
+  down: 
+  east: 1
+  id: 4
+  name: New Room
+  north: 
+  south: 
+  up: 
+  west: 
+- !ruby/object:Mud::Room 
+  description: New Room Description
+  down: 
+  east: 
+  id: 5
+  name: New Room
+  north: 
+  south: 1
+  up: 
+  west: 
