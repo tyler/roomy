@@ -14,8 +14,8 @@ class Mud
         character
       end
 
-      def exists?(name)
-        File.exists?(filename(name))
+      def exist?(name)
+        File.exist?(filename(name))
       end
 
       # need more defaults set here... things like initial room_id

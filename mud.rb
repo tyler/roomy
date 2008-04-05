@@ -18,4 +18,6 @@ class Mud
   end
 end
 
-$mud = Mud.new
+if __FILE__ == $0
+  $mud = Mud.new
+end

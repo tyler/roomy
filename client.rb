@@ -36,7 +36,7 @@ class Mud
 
             client.login
 
-            until session.eof? do
+            until session.closed? || session.eof? do
               input = session.gets.chomp
               client.commands.dispatch(input)
             end
@@ -72,8 +72,8 @@ class Mud
     def login
       message "Name:"
       name = @session.gets.chomp
-      destroy unless Character.exists?(name)
 
+      destroy unless Character.exist?(name)
       @character = Character.load(name)
       
       message "Password:"
